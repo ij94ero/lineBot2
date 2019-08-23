@@ -19,9 +19,9 @@ def webhook():
 def callback():
     json_line = request.get_json()
     json_line = json.dumps(json_line)
-    decoded = json.loads(json_line)
-    user = decoded["events"][0]['replyToken']
-    userText = decoded["events"][0]['message']['text']
+    decoded = json.loads(json_line)["
+    user = decodedDete["originalctDetectlntRequest']['playload']['data']['reply Token']
+    userText = decoded["queryTesult][internet'][displayName']
     #sendText(user,userText)
     it (userText== 'สวัสดี'):
        sendText(userText== 'สวัสดีจ้ะ')
