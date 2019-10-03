@@ -22,13 +22,12 @@ def callback():
     decoded = json.loads(json_line)["
     user = decodedDete["originalctDetectlntRequest']['playload']['data']['reply Token']
     userText = decoded["queryTesult][internet'][displayName']
-    #sendText(user,userText)
-    it (userText== 'สวัสดี'):
-       sendText(userText== 'สวัสดีจ้ะ')
-    elit (userText== 'ชื่อไรเหรอ'):
-       sendText(userText== 'ชื่อtnimจ้าาา')
-    elit (userText== 'ดีจ้าา'):
-       sendText(userText== 'ดีจ้าาาาาาาาา')
+    if (userText== 'สวัสดี') :
+       sendText(user,== 'สวัสดีจ้ะ')
+    elif (userText== 'ชื่อไรเหรอ') :
+       sendText(user,== 'ชื่อtnimจ้าาา')
+    elif (userText== 'ดีจ้าา') :
+       sendText(user,== 'ดีจ้าาาาาาาาา')
     return '',200
 
 def sendText(user, text):
